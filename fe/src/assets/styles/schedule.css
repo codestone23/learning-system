@@ -1,0 +1,157 @@
+.select-courses-shedule {
+  display: flex;
+  width: 118px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  padding: 4px 8px;
+  background-color: #f4f5f7;
+  border-radius: 3px;
+  color: #7a869a;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 20px;
+  border: #f4f5f7 solid;
+}
+.button-today {
+  display: flex;
+  width: 68px;
+  height: 38px;
+  align-items: center;
+  position: absolute;
+  left: 128px;
+  padding: 6px 12px;
+  background-color: #f4f5f7;
+  border-radius: 3px;
+  color: #42526e;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 500;
+  line-height: 20px;
+  border: #f4f5f7 solid;
+  text-align: center;
+}
+.VerticalAppointment-title {
+  color: "#4D5E80";
+  font-size: 10;
+  font-family: "Roboto";
+  font-weight: "700";
+}
+
+.student__information{
+  margin: 10px 0;
+  fill: #FFF;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.30);
+  /* width: 100%; */
+  /* height: 340.361px; */
+  /* flex-shrink: 0; */
+  display: flex;
+  /* flex-grow: 1; */
+  border-radius: 10px;
+  border: 1px solid #e1e3e1;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.student__information-title{
+  margin-top: 10px;
+}
+.student__information--avatar{
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e1e3e1;
+
+}
+.student__information--image{
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+}
+.student__information--name{
+  flex-shrink: 0;
+  color: var(--neutral-light-n-800, #172B4D);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+.student__information--body__header{
+  border-bottom: 1px solid #e1e3e1;
+}
+.student__information--body{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.student__information--content{
+  display: flex;
+}
+.student__information--content__left{
+  width: 45%;
+}
+.student__information--content__right{
+  width: 50%;
+}
+.student__information--big__title{
+  color: var(--neutral-light-n-800, #172B4D);
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  margin: 8px 16px;
+  margin-top: 16px;
+}
+.student__information--context__title{
+  margin: 8px 16px;
+  width: 46px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: var(--neutral-light-n-800, #172B4D);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+.student__information--context__description{
+  color: var(--neutral-light-n-800, #172B4D);
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+.student__information--course__title{
+  width: 100%;
+  /* margin-left: 0; */
+}
+.student__information--courses{
+  margin: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.student__information--courses div{
+  width: 45%;
+  height: 20.628px;
+  flex-shrink: 0;
+  color: #4989F5;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  margin: 16px;
+  margin-left: 0;
+  margin-top: 0;
+  font-weight: 400;
+  line-height: 20px; 
+  text-decoration-line: underline;
+}
+

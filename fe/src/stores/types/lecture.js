@@ -1,0 +1,1 @@
+export const GET_LECTURE_BY_ID = "GET_LECTURE_BY_ID";

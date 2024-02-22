@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito-Medium.ttf);
+}
+.page__coming{
+    margin-top: 150px;
+    display: flex;
+}
+
+
+
+.page__coming-left{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex: 0.8;
+}
+.page__coming-right{
+    display: flex;
+    flex: 1;
+}
+.page__coming-left__title{
+    display: flex;
+    width: 576px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0E254A;
+    font-family: Nunito;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+
+}
+.page__coming-left__content{
+    width: 585px;
+    color: #1A2F36;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+
+}
+.page__coming-left__button{
+    display: flex;
+    width: 146px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #009BCC;    
+}
+.page__coming-left__icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.page__coming-left__button-name{
+    padding-left: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+#countdown{
+    margin: auto;
+}
+
+.vertical-line{
+    border: 1px solid #ccc;
+}
+
+
+
+.page__coming-right.container {
+    color: #333;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.page__coming-right.container li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.page__coming-right.container li span:first-child {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background: #009BCC;
+    flex-shrink: 0;
+    display: block;
+    font-size: 4.5rem;
+    color: #FFF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px;
+}
+.page__coming-right.container li span:nth-child(2) {
+    padding-top: 10px;
+    display: flex;
+    width: 120px;
+    height: 38px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #009BCC;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+  

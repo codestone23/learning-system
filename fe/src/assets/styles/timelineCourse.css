@@ -1,0 +1,79 @@
+.ps-timeline-sec {
+  position: relative;
+  background: #fff;
+}
+.ps-timeline-sec .container {
+  /* overflow-x: scroll; */
+  overflow-y: hidden;
+  height: 300px;
+  margin-top: 240px;
+  position: relative;
+  width: fit-content;
+  max-width: -webkit-fill-available;
+}
+.ps-timeline-sec .container ol.ps-timeline {
+  display: block;
+  width: max-content;
+  margin: 150px 0;
+  padding: 0;
+  border-top: 2px solid #348e80;
+  list-style: none;
+}
+.timeline__course--main{
+  display: block;
+  width: max-content;
+}
+.ps-timeline-sec .container ol.ps-timeline li {
+  float: left;
+  width: 150px;
+  padding-top: 30px;
+  position: relative;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-sp-top {
+  width: 0;
+  height: 50px;
+  /* margin-left: -25px; */
+  background: #fff;
+  box-shadow: 0 0 0 0px #fff;
+  text-align: center;
+  line-height: 50px -10;
+  color: #df8625;
+  font-size: 2em;
+  font-style: normal;
+  position: absolute;
+  top: -26px;
+  left: 50%;
+}
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 128px;
+  width: 100%;
+}
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-top img {
+  display: table;
+  margin: 0 auto;
+}
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+  position: absolute;
+  margin-top: 60px;
+  width: 100%;
+}
+.ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img {
+  display: table;
+  margin: 0 auto;
+}
+.ps-timeline-sec .container ol.ps-timeline li p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-top {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 100px;
+}
+.ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+  position: absolute;
+  margin-top: 0px;
+}

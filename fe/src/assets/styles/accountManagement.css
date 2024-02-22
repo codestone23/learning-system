@@ -1,0 +1,613 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito-Regular.woff);
+}
+
+.page-header {
+  padding: 16px;
+  text-align: left;
+}
+.account-table-blur {
+  filter: blur(2px);
+  border-bottom: 2px solid #dfe1e6;
+  width: 100%;
+  text-align: left;
+}
+.breadcrumb {
+  height: 20px;
+  background: #ffffff;
+  color: #6b778c;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+}
+.main-content-title {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: block;
+  position: relative;
+  height: 32px;
+}
+.title-account {
+  color: #172b4d;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 500;
+  height: 32px;
+  text-align: left;
+  width: 320px;
+  position: absolute;
+  left: 0;
+}
+.button-create-new-account {
+  background: #0052cc;
+  border-radius: 3px;
+  align-items: center;
+  height: 37px;
+  width: 128px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 500;
+  position: absolute;
+  right: 0px;
+}
+
+.button-more {
+  height: 32px;
+  width: 32px;
+  padding: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  background-color: #091e42 4%;
+  position: absolute;
+  right: 16px;
+  top: 2px;
+}
+.action {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: block;
+  position: relative;
+  height: 38px;
+}
+
+.form-search-account {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 544px;
+}
+
+.form-input-search-account {
+  display: flex;
+  width: 280px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 2px #dfe1e6 solid;
+  background-color: #fafbfc;
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+}
+.filter-role-dropdown {
+  display: flex;
+  width: 216px;
+  height: 36px;
+  align-items: center;
+  border: 2px #dfe1e6 solid;
+  border-radius: 3px;
+  position: absolute;
+  left: 310px;
+  text-align: left;
+  /* background-color: #ebecf0; */
+}
+.button-filter-role-dropdown {
+  color: #7a869a;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  text-align: left;
+  align-items: center;
+}
+
+.form-input-search-account::placeholder {
+  color: #7a869a;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  height: 20px;
+  padding: 8px 6px 8px 6px;
+}
+.icon-search-input {
+  position: relative;
+  top: 10px;
+  left: 264px;
+  z-index: 5;
+  height: 24px;
+}
+
+.filter-role-dropdown-icon {
+  position: relative;
+  top: 0;
+  left: 186px;
+  z-index: 5;
+  height: 24px;
+}
+.dropdown-list-role {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 1px 0px rgba(9, 30, 66, 0.31),
+    0px 3px 5px 0px rgba(9, 30, 66, 0.2);
+  border-radius: 3px;
+  display: block;
+  z-index: 5;
+  width: 216px;
+  position: absolute;
+  top: 44px;
+  left: 310px;
+  text-align: left;
+}
+.dropdown_item-role {
+  text-align: left;
+  height: 24px;
+  width: 200px;
+}
+
+.dropdown-item-checkbox-role {
+  color: #7a869a;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  display: inline-flex;
+  margin-left: 32px;
+}
+
+.dropdown-item-name {
+  margin-left: 16px;
+}
+
+.button-clear-filter {
+  background: #0052cc;
+  border-radius: 3px;
+  align-items: center;
+  height: 100%;
+  width: 128px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 500;
+  position: absolute;
+  left: 544px;
+}
+.no__account {
+  margin-top: 100px;
+}
+.form-search-account input[type="text"] {
+  text-indent: 8px;
+  color: #272a31;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  height: 20px;
+  padding: 8px 6px 8px 6px;
+}
+.account-info-table {
+  padding: 0px 16px 16px 16px;
+}
+.account-table {
+  border-bottom: 2px solid #dfe1e6;
+  width: 100%;
+  text-align: left;
+}
+.account-table thead th {
+  color: #6b778c;
+  font-size: 12;
+  font-family: Nunito;
+  font-weight: 400;
+  height: 48px;
+  border-bottom: 2px solid #dfe1e6;
+}
+.account-table td {
+  color: #172b4d;
+  font-size: 14;
+  font-size: normal;
+  font-family: Nunito;
+  font-weight: 400;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.account-table-action-column {
+  width: 4%;
+}
+.account-table-action-column-td {
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+.button-clear-filter:hover {
+  background: #1160d8;
+  border: 1px solid #ffffff;
+  text-decoration: underline;
+}
+.dropdown-list-actions-account-table {
+  z-index: 2;
+  width: 232px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 0px rgba(9, 30, 66, 0.31),
+    0px 3px 5px 0px rgba(9, 30, 66, 0.2);
+  right: 30px;
+  position: absolute;
+  background-color: #ffffff;
+}
+.dropdown-list-actions-account-table.dropdown-list-actions-account-table-top {
+  top: 30px;
+}
+.dropdown-list-actions-account-table.dropdown-list-actions-account-table-down {
+  top: -80px;
+}
+.dropdown-list-actions-account-table dl {
+  margin: 0;
+  width: 100%;
+  height: 16px;
+  align-items: center;
+  display: inline-flex;
+  z-index: 20;
+}
+.dropdown-list-actions-item {
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+  padding: 8px 24px;
+  display: inline-flex;
+}
+.dropdown-list-actions-item:hover {
+  background-color: #ebecf0;
+}
+.action-name {
+  margin-left: 16px;
+  align-items: center;
+  color: #172b4d;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+}
+.more-info {
+  position: relative;
+}
+.lock-icon {
+  padding: 0 10px;
+}
+.confirm-box-account {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(66, 66, 66, 0.31);
+  z-index: 2;
+}
+.confirm-box-account-management {
+  margin: 300px auto;
+  width: 540px;
+  height: 120px;
+  padding: 24px;
+  background-color: #ffffff;
+  z-index: 9999;
+  border-radius: 16px;
+  position: relative;
+}
+.confirm-box-account-tilte {
+  text-align: left;
+  width: 100%;
+  height: 32px;
+}
+.confirm-box-account-tilte-text {
+  color: #172b4d;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-left: 8px;
+}
+.confirm-box-account-description {
+  color: #172b4d;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  text-align: left;
+  padding-top: 16px;
+}
+.confirm-box-account-btn {
+  text-align: end;
+}
+.button-discard-confirm-box {
+  width: 72px;
+  height: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+  color: #42526e;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.button-agree-confirm-box {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #de350b;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+  width: 124px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+  height: 32px;
+  margin-left: 16px;
+}
+.confirm-box-account-buttons {
+  display: inline-flex;
+  right: 32px;
+  bottom: 24px;
+  position: absolute;
+}
+.button-discard-confirm-box:hover {
+  border: 1px solid #091e42;
+}
+.button-agree-confirm-box {
+  background-color: #de3500;
+  font-weight: 600;
+  border: 1px solid #ffffff;
+}
+.create-new-account {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(66, 66, 66, 0.31);
+  z-index: 5;
+}
+.create-new-account div p {
+  top: 50px;
+  font-size: 14px;
+  position: absolute;
+  color: red;
+}
+.create-new-account.create-edit-account div p {
+  top: 46px;
+}
+.create-new-account-modal {
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  margin: 100px auto;
+  text-align: center;
+  background-color: white;
+  width: 600px;
+  height: 640px;
+  padding: 24px;
+  overflow-y: scroll;
+  border-radius: 3px;
+}
+.select__roles--form-new-account {
+}
+.create-edit-account .create-new-account-modal {
+  height: 460px;
+}
+.new-account-info-input__select--roles
+  .form-input-new-account-info-field
+  .css-13cymwt-control,
+.new-account-info-input__select--roles
+  .form-input-new-account-info-field
+  .css-13ipsp-control {
+  width: 600px;
+  height: 40px;
+  padding-left: 0;
+  padding-top: 0;
+  border-radius: 3px;
+  border: 2px solid var(--neutral-light-n-40, #dfe1e6);
+  background: var(--neutral-light-n-10, #fafbfc);
+}
+.new-account-info-input__select--roles .form-input-new-account-info-field {
+  padding-right: 0;
+}
+.new-account-info-input__select--roles
+  .form-input-new-account-info-field
+  .css-13cymwt-control
+  .css-1xc3v61-indicatorContainer
+  sgv {
+  display: none;
+}
+.form-input-new-account-info-field.form-input-new-account-info-field-role.css-b62m3t-container
+  > .css-1xc3v61-indicatorContainer {
+  display: none;
+}
+.create-new-account-modal::-webkit-scrollbar {
+  display: none;
+}
+.create-new-account-modal-tilte {
+  color: #172b4d;
+  font-size: 20px;
+  font-family: Nunito;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  text-align: left;
+  margin-top: 0;
+}
+.create-new-account-modal-tilte-first {
+  width: 140px;
+  position: relative;
+  color: black;
+  font-size: 16px;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  text-align: left;
+}
+.new-account-info-input {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 16px;
+}
+.form-title-info-input {
+  color: black;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+  margin-bottom: 16px;
+}
+.require-star {
+  color: #ff0000;
+}
+.form-input-new-account-info-field {
+  font-family: Nunito;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: -webkit-fill-available;
+  height: 36px;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 3px;
+  border: 2px solid var(--neutral-light-n-40, #dfe1e6);
+  background: var(--neutral-light-n-10, #fafbfc);
+}
+.form-input-new-account-info-field-focus:focus {
+  font-family: Nunito;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: -webkit-fill-available;
+  height: 36px;
+  border-radius: 3px;
+  border: 2px solid var(--neutral-light-n-40, #ffc1b9);
+  background: var(--neutral-light-n-10, #ffe5e1);
+}
+.form-input-new-account-info-field-focus {
+  font-family: Nunito;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: -webkit-fill-available;
+  height: 36px;
+  border-radius: 3px;
+  border: 2px solid var(--neutral-light-n-40, #dfe1e6);
+  background: var(--neutral-light-n-10, #fafbfc);
+}
+.form-input-new-account-info-field-role {
+  border-radius: 3px;
+  border: 2px solid var(--neutral-light-n-40, #dfe1e6);
+  background: var(--neutral-light-n-10, #fafbfc);
+  padding-left: inherit;
+  border: none;
+}
+.css-13cymwt-control {
+  margin-right: -15px;
+  padding-top: 3px;
+  padding-left: 3px;
+  border-radius: 3px;
+  border: 2px solid var(--neutral-light-n-40, #dfe1e6);
+  background: var(--neutral-light-n-10, #fafbfc);
+}
+.create-new-account-info-icon-down {
+  position: absolute;
+  right: 10px;
+  bottom: 2px;
+}
+.addtional-infor-show {
+  display: block;
+}
+.additional-info-unshow {
+  display: none;
+}
+.button-create-new-account-modal {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #0052cc;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 64px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Nunito;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+  height: 32px;
+  margin-left: 16px;
+}
+.button-create-new-account-modal__loading {
+  cursor: default;
+}
+.new-account-form-account-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar {
+  display: none;
+}
+.icon-disable {
+  position: relative;
+  top: 4px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+.new-account-info-input .select_manager_option {
+  padding: 10px 8px;
+  height: 32px;
+}
+.validate-error-message {
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  bottom: -20px;
+}
+.existed__email {
+  right: 0;
+}
+.error-server-message {
+  color: crimson;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+.error-boundary {
+  background-color: #fbdbdb;
+}
